@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Input Types</title>
+</head>
+<body>
+
+    <label>Select Color</label>
+    <input type="color" name="color" />
+    <br><br>
+
+    <label>Number</label>
+    <input type="number" min="0" max="100" step="10" name="quantity" />
+    <br><br>
+
+    <label>Range</label>
+    <input type="range" min="0" max="100" step="10" name="volume" />
+    <br><br>
+
+    <label>Date</label>
+    <input type="date" name="date" />
+    <br><br>
+
+    <label>DateTime</label>
+    <input type="datetime-local" name="datetime" />
+    <br><br>
+
+    <label>Month</label>
+    <input type="month" name="month" />
+    <br><br>
+
+    <label>Week</label>
+    <input type="week" name="week" />
+    <br><br>
+
+    <label>Time</label>
+    <input type="time" name="time" />
+
+</body>
+</html>
